@@ -18,4 +18,4 @@ version: 0.01
 applications:
     cms:
         callbacks:
-#            MT::App::CMS::template_source.display_options: $LimitPerPageChanger::LimitPerPageChanger::CMS::display_options
+            MT::App::CMS::template_source.display_options: $LimitPerPageChanger::LimitPerPageChanger::CMS::display_options

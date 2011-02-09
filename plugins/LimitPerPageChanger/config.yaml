@@ -1,0 +1,21 @@
+# LimitPerPageChanger
+#
+# Release 0.01 (Feb 10, 2011)
+#
+# Copyright (c) 2004-2011 Yujiro Araki
+
+name: LimitPerPageChanger
+id: LimitPerPageChanger
+author_link: http://www.koikikukan.com/
+author_name: Yujiro Araki
+plugin_link: http://www.koikikukan.com/archives/2011/02/10-015555.php
+doc_link: http://www.koikikukan.com/archives/2011/02/10-015555.php
+description: <__trans phrase="LimitPerPageChanger.">
+l10n_lexicon:
+    ja:
+        LimitPerPageChanger.: 一覧系管理画面の表示オプションの表示数をテキストエリアに変更します
+version: 0.01
+applications:
+    cms:
+        callbacks:
+#            MT::App::CMS::template_source.display_options: $LimitPerPageChanger::LimitPerPageChanger::CMS::display_options
